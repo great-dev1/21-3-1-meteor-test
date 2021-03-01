@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-describe('test', function() {
+describe('test', function () {
   it('should pass', () => {
     expect('plutio').to.eq('plutio');
   });
