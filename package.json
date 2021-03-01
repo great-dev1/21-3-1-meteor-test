@@ -1,0 +1,29 @@
+{
+  "name": "plutio-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "@types/mocha": "5.2.7",
+    "babel-eslint": "10.0.2",
+    "chai": "4.2.0",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.5.0",
+    "meteor-node-stubs": "0.4.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "simpl-schema": "1.5.5"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
